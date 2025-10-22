@@ -9,7 +9,7 @@ odd = ""
 while variable == True:
     num = eval(input("enter any number here --> "))
 
-    if num % 2 == 1:   # check if the number is odd
+    if num % 2 == 1: 
         print("odd number detected, continue")
         sum += num
         odd += str(num) + " "
@@ -17,13 +17,14 @@ while variable == True:
 
     elif num % 2 == 0:
         if num == 0:
-            print("code stops")   # stop if input is 0
+            print("code stops") 
             break
         else:
-            print("Even number detected, continue")  # even number, but continue
+            print("Even number detected, continue")  
     else:
         print("invalid input")
         continue
 
 print(f"Hi {name}, the sum of all ODD numbers is {sum}")
 print(f"Odd numbers detected included the ff: {odd}")
+
